@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVIDAD 5 - HECTOR CAMACHO</title>
+    <script src="script.js" defer></script>
+</head>
+<body style="background-color: purple; display: flex; align-items: center; justify-content: center;">
+
+    <form id="formulario" method="post" action="enviado.html" style=" border: black solid;background-color: yellow; width: 500px; border-radius: 20px; padding: 30px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        Nombre: <input type="text" name="nombre" id="nombre"/><span id="spanNombre"></span><br>
+        Correo: <input type="text" name="correo" id="correo"/><span id="spanEmail"></span><br>
+        Telefono: <input type="tel" name="telefono" id="telefono"/><span id="spanTelefono"></span><br>
+        Contraseña: <input type="password" name="contraseña" id="contraseña"/><span id="spanContraseña"></span><br>
+        Repetir contraseña: <input type="password" name="repcontraseña" id="repcontraseña"/><span id="spanRepContraseña"></span><br>
+        <input type="date" name="fecha" id="fecha"><span id="spanFecha"></span><br>
+        Elige tu sistema operativo: <br>
+        <input type="button" name="añadirSO" id="añadirSO" value="Añadir un nuevo Sistema Operativo"><br>
+        <select name="so" id="sOperativos" multiple style="width: 100px;">
+            <option value="windows">Windows</option>
+            <option value="linux">Linux</option>
+        </select><br>
+        Elige tu género de música preferido:<br>
+        <input type="button" name="añadirGenero" id="añadirGenero" value="Añadir un nuevo Género Musical"><br>
+        <div id="inputsGeneros">
+            <input class="genero" type="checkbox" name="genero" value="rock">Rock
+            <input class="genero" type="checkbox" name="genero" value="rap">Rap
+            <input class="genero" type="checkbox" name="genero" value="techno">Techno<br>
+        </div>
+        <textarea name="texto" id="texto" cols="40" rows="10" ></textarea><br>
+        <input type="submit" name="enviar" id="enviar" value="Enviar" style="background-color: green; height: 50px; width: 100px; border-radius: 10px; border: black solid; color: white;">
+    </form>
+</body>
+</html>
