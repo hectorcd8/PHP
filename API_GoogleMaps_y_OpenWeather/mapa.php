@@ -29,7 +29,6 @@ echo "Temperatura máxima: ".$temp_max."Cº<br><br> </div><br>";
 
 <html>
   <head>
-    <title>ACTIVIDAD 6 - HECTOR CAMACHO</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
     <link rel="stylesheet" type="text/css" href="./style.css" />
